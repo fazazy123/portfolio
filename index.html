@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="icon" href="assets/img/perfil.png"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <!--BOX ICONS-->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <!--HEADER-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Marlon</a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active" >Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skill</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">Work</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle " id="nav-toggle">
+                <!--boxicon to copy icon-->
+                <i class="bx bx-menu"></i>
+            </div >
+        </nav>
+    </header>
+    <main class="l-main">
+        <!--HOME-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+            <h1 class="home__title">
+            Hi <br/>
+            I'am <span class="home__title-color">Marlon</span><br/>
+            Web Designer
+            </h1>
+            <a href="#contact" class="button">Contact me</a> &nbsp;&nbsp;&nbsp;
+            <a href="https://drive.google.com/file/d/12OVg1Rfxjor8YL4N363COioOL7unCG8A/view?usp=sharing" 
+            target="_blank" 
+            class="button">Download CV</a>
+            </div>
+            
+            <div class="home__social">
+                <a href="#" class="home__socal-icon">
+                    <i class="bx bxl-linkedin"></i>
+                </a>
+                <a href="#" class="home__social-icon">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+                <a href="#" class="home__social-icon">
+                    <i class="bx bxl-github"></i>
+                </a>
+            </div>
+            <div class="home__img">
+                <img src="assets/img/perfil.png"alt="Marlon Image"/>
+                
+
+            </div>
+        </section>
+        <!--ABOUT-->
+        <section class="about section" id="about" >
+            <h2 class="section-title">About</h2>
+            
+            <div class="about__container bd-grid">
+               <div class="about__img"> 
+                <img src="assets/img/about.jpg" alt="about image"/>
+               </div>
+                <div>
+                    <h2 class="about__subtitle"> I am Strategy</h2>
+                    <p class="about__text">
+                        I am a web Developer and i am very passionate and dedicate to my
+                        job with 6 months experience as a proffessional Web Developer. I 
+                        have acquired the skills and knowdlege neccessary to make your 
+                        project a success.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--  Skills-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                    <p class="skills__text">
+                        I am a web Developer and i am very passionate and dedicate to my
+                        job with 6 months experience as a proffessional Web Developer. I 
+                        have acquired the skills and knowdlege neccessary to make your 
+                        project a success. 
+                    </p>
+                    <!-- start html skill-->
+                    <div class="skills__data">
+                      <div class="skills__names">
+                        <i class="bx bxl-html5 skills__icon"></i>
+                        <span class="skills__name">HTML5</span>
+                      </div>
+                       
+                      <div>
+                           <span class="skills__percentage">85%</span>
+                    </div>
+
+                    <div class="skills__bar skills__html"></div>
+                </div>
+                    <!--end html skill-->
+                
+
+                    <!-- start css skill-->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                          <i class="bx bxl-css skills__icon"></i>
+                          <span class="skills__name">CSS3</span>
+                        </div>
+                      
+  
+                      <div>
+                          <span class="skills__percentage">65%</span>
+                      </div>
+  
+                      <div class="skills__bar skills__css"></div>
+                    </div>
+                      <!--end css skill-->
+                  
+
+                      <!-- start js skill-->
+                      <div class="skills__data">
+                        <div class="skills__names">
+                          <i class="bx bxl-javascript skills__icon"></i>
+                          <span class="skills__name">Javascript</span>
+                        </div>
+                      
+  
+                      <div>
+                          <span class="skills__percentage">50%</span>
+                      </div>
+  
+                      <div class="skills__bar skills__js"></div>
+                    </div>
+                      <!--end js skill-->
+                  
+
+                      <!-- start graphic skill-->
+                      <div class="skills__data">
+                        <div class="skills__names">
+                          <i class="bx bxs-paint skills__icon"></i>
+                          <span class="skills__name">Graphics Design</span>
+                        </div>
+                      
+  
+                      <div>
+                          <span class="skills__percentage">55%</span>
+                      </div>
+  
+                      <div class="skills__bar skills__gd"></div>
+                    </div>
+                      <!--end graphic skill-->
+                  
+
+              </div>
+              <div>
+                <img src="assets/img/work3.jpg" alt="work3 image" class="skills image"/>
+              </div>
+        </section>
+        <!--WORK-->
+        <section class="work section" id="work">
+            
+            <h2 class="section-title">work</h2>
+            
+
+                
+            
+            
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                <img src="assets/img/work1.jpg"alt="work1 image"/>
+            </div>
+                <div class="work__img">
+                    <img src="assets/img/work2.jpg"alt="work2 image"/>
+                
+                <div class="work__img">
+                    <img src="assets/img/work3.jpg"alt="work image"/>
+                </div>
+        
+                <div class="work__img">
+                    <img src="assets/img/work4.jpg"alt="work image"/>
+                </div>
+            
+                <div class="work__img">
+                    <img src="assets/img/work5.jpg"alt="work image"/>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT -->
+         <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact__container bd grid"></div>
+            
+            <!-- redirect user to your website after submitting to Google sheet start -->
+                <script type="text/javascript">
+                    var submitted=false;
+                </script>
+                <iframe
+                    name="hidden_iframe"
+                    id="hidden_iframe"
+                    style="display:none"
+                    onload="if(submitted){window.location='#'}"
+                ></iframe>
+            <!--redirect user to your website after submitting to Google sheet end-->
+                <form 
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdgg9m4mvfo726Kb_9Rvl3KCwdIj7ZzRczH__xgc30yaj9YeA/formResponse"
+                method="POST"
+                target="hidden_iframe"
+                onsubmit="submitted=true"
+                class="contact__form"
+                >
+                    <input 
+                    type="text" 
+                    placeholder="Name" 
+                    class="contact__input"  
+                    name="entry.259425226"/>
+                    <input 
+                    type="email" 
+                    placeholder="Email" 
+                    class="contact__input" 
+                    name="entry.1621450905"/>
+                    <textarea
+                     placeholder="Message" 
+                     rows="10"
+                      class="contact__input"
+                      name="entry.1966352578"
+                    ></textarea>
+                    
+                        <button type="submit" class="contact__button button">
+                            Send message
+                        </button>
+                   
+                </form>
+            </div>
+            
+        </section>
+               
+    </main >
+<!--FOOTER-->
+<footer class="footer">
+    <p class="footer__title">Marlon</p>
+    <div class="footer__social">
+        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+
+    </div>
+<P>&#169; 2021 copyright all right reserved</P>
+</footer>
+    <!--SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--MAIN JS-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+<!--
+    Development Tools
+    -Vscode or Visual Studio Code
+    -Browser such as Chrome,Firefore,Mictrosoft Edge
+
+    Technologies
+    - Html5
+    -Css3
+    -JavaScript
+
+    Third Paries Technologies
+    -Github
+    -Netlify
+    -Boxicons.com
+    -Google fonts
+    -Goole form
+    -Google sheet
+    -Yet Another Mail Mergin:Mail Merge for Gmail
+
+
+-->
+<!--
+    google serch box icos
+    click on usage and scroll down to imge font and copy the link
+    link = href="http://unpkg.com/boxicon@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+    -google search scrollrevealjs.org inoder to apply smooth scroll onto the html page.
+    -click on Guide, goto Quick Start select then copy this HTML code
+    <script src="https://unpkg.com/ scrollreveal"></script>
+    -past it on the scroll reveal section on the html code
+    -google search fonts in order to copy font on web 
+    
+
+
+
+
+
+
+    <--configuring Mail in Google sheet
+    -open your gmail account to create two draft
+    1.mail content to receive when submit button is clicked on your app.
+    2.mail content to send out to the recipients i.e auto-response mail.
+    -back to google sheet
+    -click on Extensions
+    for new user
+    -click on Add-on
+    -click on Get add-ons
+    -serach for Yet Another Mail Merge:
+    click on configure for submission notification
+    -on the display dialog box
+    *check Notify one or more addresses of all responses
+    *check Notify address submitted by the form
+    -click on the first Email Teplate drop down box to pick the draft that you want to recieve
+    -click on the second Email Template dropdown box to pick the draf you want to send out as auto-response.
+    -Sender Name:Write the sender name
+    -check track emails opened
+    -check wait until a specific column is filled before sending the email
+    - click on save button
+    - if properly configure you will see this message
+    You have successfully setup your notification rules. Your form is ready for submission
+    - let test the email from our app
+
+    After development of our app let push to github
+    C:\portfoliohtmlcssjs11062022>    git init
+    PS C:\portfoliohtmlcssjs11062022> git status
+    PS C:\portfoliohtmlcssjs11062022> git add .
+    PS C:\portfoliohtmlcssjs11062022> git commit -m "Portfolio Html css js"
+    PS C:\portfoliohtmlcssjs11062022> git status
+    git remote add origin https://github.com/fazazy123/PortfolioApp.git
+git branch -M main
+git push -u origin main
+-->
+ 
