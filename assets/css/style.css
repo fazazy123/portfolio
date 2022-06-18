@@ -120,7 +120,7 @@ img{
     border-radius: 6px;
     padding: 8px 0;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     bottom: 125%;
     left: 50%;
     margin-left: -80px;
@@ -276,6 +276,7 @@ img{
     right: 0;
     bottom: 0;
     width: 295px;
+    z-index: -1;
 }
 
 .home__img img {
@@ -446,6 +447,7 @@ img{
         width: 80px;
         top: 3rem;
     }
+    
     .nav {
         height: calc(var(--header-height) + 1rem);
     } 
